@@ -7,6 +7,7 @@ console.log(a.toUpperCase());
 console.log(a.slice(4));
 console.log(a.slice(-4));
 console.log(a.includes('ya'));
+window.alert()
 // let i  = 'adi';
 
 // let b = 'tiwari';
