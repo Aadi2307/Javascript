@@ -1,56 +1,10 @@
 <!DOCTYPE html>
 <html>
-<title>
-    CALCULATOR
+
+<title> 
+    CONDITIONS
 </title>
-<body>
-<style>
-    .block {
-  display: block;
-  width: 20%;
-  border: none;
-  background-color: #04AA4c;
-  color: white;
-  padding: 14px 28px;
-  font-size: 16px;
-  text-align: center;
-}
-</style>
-
-<form>Param 1<input type="text" size="20" id="text1"/>
-  Param 2  <input type="text"   id="text2"/><br><br><br>
-    <input type='button'class="block" value='Add'  onclick="add()"/>&nbsp
-    <input type='button' class="block"value='Subtract' onclick="subtract()"/>&nbsp
-    <input type='button' class="block" value='Multiply' onclick="multiply()"/>&nbsp
-    <input type='button' class="block" value='Divide' onclick="divide()"/>
-</form>
-
-<script>
-    var a= document.getElementById("text1").value;
-    var b= document.getElementById("text2").value;
+<script src="conditions.js">
     
-    function add(){
-    var a= document.getElementById("text1").value;
-    var b= document.getElementById("text2").value;
-      document.write(Number(a) + Number(b))
-    }
-    function multiply(){
-    var a= document.getElementById("text1").value;
-    var b= document.getElementById("text2").value;
-      document.write(a*b)
-    }
-    function divide(){
-    var a= document.getElementById("text1").value;
-    var b= document.getElementById("text2").value;
-      document.write(a/b)
-    }
-    function subtract(){
-    var a= document.getElementById("text1").value;
-    var b= document.getElementById("text2").value;
-      document.write(a-b)
-    }
 </script>
-
-</body>
-
 </html>
